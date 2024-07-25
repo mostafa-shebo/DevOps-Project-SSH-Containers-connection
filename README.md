@@ -4,7 +4,7 @@ Step1: Git clone the repo
 --> git clone https://github.com/mostafa-shebo/DevOps-Project-SSH-Containers-connection.git
 
 Step2: Building the Docker image through docker file
---> cd docker file
+--> cd docker-file
 --> vim Dockefile ----> check the dockerfile
 --> docker build -t new-ssh-ubuntu:v1 .
 
