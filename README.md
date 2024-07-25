@@ -40,4 +40,7 @@ Step6: you need to know the container-server ip address to be able to ssh
 step7: now you can ssh from container-client to container-server
 --> ssh root@IP 
 
+![image](https://github.com/user-attachments/assets/c84be71e-5382-4949-9f51-6fd62ee1e7a0)
+
+
 congratultions now we complete for any info please do not hesitate to contact me.
