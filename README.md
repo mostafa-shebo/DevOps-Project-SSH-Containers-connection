@@ -7,6 +7,8 @@ Step2: Building the Docker image through docker file
 --> cd docker-file
 --> vim Dockefile ----> check the dockerfile
 --> docker build -t new-ssh-ubuntu:v1 .
+
+
 ![dockerfile](https://github.com/user-attachments/assets/f2d4744d-a148-431f-be21-2691a2465999)
 
 
@@ -22,6 +24,11 @@ Step4: configure the sshd file in cintainer-server
 --> docker exec -it  container-server bash <-- to enter the container 
 --> vim sshd_config 
 ** NOTE : now you need to change ((#PermitRootLogin prohibit-password)) to be ((PermitRootLogin yes)) please remember to remove the hash sign (#)
+
+
+
+![ssh-file](https://github.com/user-attachments/assets/8826728e-524e-4b8b-b980-bedf76f0adcb)
+
 
 Step5: need to change the root password to be able to connect from another server
 --> passwd root 
