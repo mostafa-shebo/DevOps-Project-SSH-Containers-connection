@@ -1,6 +1,4 @@
 # DevOps-Project-SSH-Containers-connection
-creating a Dockerfile, building an image, running two containers from that image and establish an SSH connection between the two containers, allowing the client container to SSH into the server container.
-
 
 
 ![DevOps Project](https://github.com/user-attachments/assets/4d52a32e-0e10-470e-bf7d-5d88fc2f6e4b)
