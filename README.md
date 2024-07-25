@@ -7,6 +7,8 @@ Step2: Building the Docker image through docker file
 --> cd docker-file
 --> vim Dockefile ----> check the dockerfile
 --> docker build -t new-ssh-ubuntu:v1 .
+![dockerfile](https://github.com/user-attachments/assets/f2d4744d-a148-431f-be21-2691a2465999)
+
 
 ** OR you can pull the image direct from docker hub through this command ###
 --> docker pull mostafaabdelaziz/new-ssh-ubuntu
