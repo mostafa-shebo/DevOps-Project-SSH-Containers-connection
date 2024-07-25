@@ -1,6 +1,7 @@
-FROM node:18-alpine
-WORKDIR /app
-COPY . .
-RUN yarn install --production
-CMD [ "node", "src/index.js" ]
-EXPOSE 3000
+FROM ubuntu
+RUN apt-get update && \
+    apt-get install -y openssh-server vim && \
+    service ssh start
+WORKDIR /etc/ssh
+EXPOSE 22
+CMD ["/usr/sbin/sshd", "-D"]
